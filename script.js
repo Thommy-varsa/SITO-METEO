@@ -47,7 +47,7 @@ function displayWeather(data) {
             backgroundColor = "linear-gradient(to bottom, #4b0082, #000080)";
         } else if (weatherCode >= 71 && weatherCode <= 86) {
             weatherIcon = "❄️";
-            backgroundColor = "linear-gradient(to bottom, #ffffff, #add8e6)";
+            backgroundColor = "linear-gradient(to bottom, #66a6ff, #add8e6)";
         } else if (weatherCode === 45 || weatherCode === 48) {
             weatherIcon = "🌫️";
             backgroundColor = "linear-gradient(to bottom, #dcdcdc, #b0c4de)";
